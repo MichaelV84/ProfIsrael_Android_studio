@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="1dp"
+    android:minHeight="70dp"
+    android:elevation="1dp"
+    android:layout_margin="0dp">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/nestedItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="Какой то блять текст"
+        android:textColor="@color/grayText"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+
+</androidx.cardview.widget.CardView>

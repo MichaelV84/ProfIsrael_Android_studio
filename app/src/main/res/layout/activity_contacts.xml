@@ -1,0 +1,230 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/up_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        >
+
+        <!-- Логотип -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20sp"
+            android:clickable="true"
+
+            android:onClick="logoClick"
+            android:src="@drawable/logo" />
+
+        <!-- Изображение для меню -->
+        <ImageView
+            android:id="@+id/menuPUP"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <!--  Кнопка входа -->
+        <Button
+            android:layout_marginRight="20sp"
+            android:id="@+id/loginButton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:textSize="12dp"
+            android:text="@string/enter"
+            android:drawableStart="@drawable/ic_baseline_login_16"
+            android:drawablePadding="-20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rounded_button"
+
+            />
+
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/up_menu"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/gray"
+            >
+
+            <!-- Текстовая надпись и кнопки -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/our_contacts"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25dp"
+
+                >
+            </TextView>
+
+
+            <LinearLayout
+                android:id="@+id/mail_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/round_lin"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                android:paddingBottom="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/mail_logo" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/write">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/mail"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/whatsApp_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/round_lin"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingBottom="25dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="25dp"
+                    android:src="@drawable/whatsapp_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/whatsapp">
+
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/tel_num"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+
+                    ></TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/instagram_lin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/round_lin"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:paddingBottom="25dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:src="@drawable/instagram_logo"
+                    android:layout_marginTop="25dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/podpisivaites"
+                    android:layout_marginTop="15dp"
+                    >
+
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/instagram"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25dp"
+
+                    >
+                </TextView>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+    <Button
+        android:id="@+id/button_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нужна помощь?"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/castom_help_btn"
+        android:textColor="@color/green"
+        android:textAllCaps="false"
+        android:padding="2dp"
+        />
+
+</RelativeLayout>

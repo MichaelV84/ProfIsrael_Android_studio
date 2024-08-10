@@ -1,0 +1,194 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Верхнее меню -->
+    <RelativeLayout
+        android:id="@+id/up_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:gravity="center_vertical"
+        android:background="@color/white">
+
+        <!-- Логотип -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:clickable="true"
+            android:onClick="logoClick"
+            android:src="@drawable/logo" />
+
+        <!-- Изображение для меню -->
+        <ImageView
+            android:id="@+id/menuPUP"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/menu"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <!-- Кнопка входа -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:textSize="12sp"
+            android:text="@string/enter"
+            android:drawableStart="@drawable/ic_baseline_login_16"
+            android:drawablePadding="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/rounded_button" />
+    </RelativeLayout>
+
+    <!-- ScrollView для остального контента -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/up_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <!-- Текстовая надпись и кнопки -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="@string/Find_the_best_profi"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <!-- Поисковая панель -->
+            <LinearLayout
+                android:id="@+id/search_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginEnd="60dp"
+                android:padding="0dp">
+
+                <!-- Поле ввода текста -->
+                <EditText
+                    android:id="@+id/search_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/search_view_border_selector"
+                    android:padding="10dp"
+                    android:hint="Введите название услуг"
+                    android:textColor="@android:color/black"
+                    android:gravity="center_vertical"
+                    android:layout_margin="0dp" />
+
+                <!-- Кнопка с изображением -->
+                <ImageButton
+                    android:id="@+id/search_btn"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/search"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/search_button"
+                    android:scaleType="fitStart"
+                    android:layout_margin="0dp" />
+            </LinearLayout>
+            <!-- Кнопка "Найти город" -->
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button2"
+                android:textColor="@color/white"
+                android:text="@string/find_city"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp" />
+
+            <!-- Кнопка "Онлайн-сервисы" -->
+            <Button
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button2"
+                android:textColor="@color/white"
+                android:text="@string/online_services"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:layout_marginBottom="30dp" />
+
+            <!-- Реклама -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pr"
+                android:layout_marginTop="25dp"
+                android:id="@+id/reklama"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp" />
+
+            <!-- RecyclerView для данных из базы данных -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/from_db_recycle_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp" />
+
+            <!-- Блок с информацией -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="40dp"
+                android:background="@color/white">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/about_us"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:layout_marginBottom="15dp" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/main_recycleview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:maxHeight="400dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Кнопка помощи -->
+    <Button
+        android:id="@+id/button_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нужна помощь?"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/castom_help_btn"
+        android:textColor="@color/green"
+        android:textAllCaps="false"
+        android:padding="2dp"
+        />
+</RelativeLayout>

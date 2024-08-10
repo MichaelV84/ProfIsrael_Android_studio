@@ -1,0 +1,289 @@
+<resources>
+    <string name="app_name">ProfIsrael</string>
+    <string name="enter">Вход</string>
+    <string name="item_1">На главную</string>
+    <string name="item_2">Наши контакты</string>
+    <string name="item_3">Instagram</string>
+    <string name="Find_the_best_profi">Найти лучшего профи</string>
+    <string name="find_city">ВЫБРАТЬ ГОРОД</string>
+    <string name="online_services">ONLINE УСЛУГИ</string>
+    <string name="about_us">О нашем портале</string>
+    <string name="our_contacts">Наши контакты</string>
+    <string name="write">Пишите</string>
+    <string name="whatsapp">WhatsApp чат</string>
+    <string name="mail">mail@profisrael.com</string>
+    <string name="tel_num">0539578359</string>
+    <string name="podpisivaites">Подписывайтесь</string>
+    <string name="enter_for_masters">Вход для мастеров</string>
+    <string name="login_email">Ваш логин (Email)</string>
+    <string name="instagram">\@profi.israel</string>
+    <string name="enter_mail">Введите ваш email</string>
+    <string name="password">Пароль</string>
+    <string name="ent_pass">Введите пароль</string>
+    <string name="enter_btn">Войти</string>
+    <string name="singin_btn">Регистрация</string>
+    <string name="reg_for_masters">Регистрация для мастеров</string>
+    <string name="reklama_na_portale">Реклама на портале</string>
+    <string name="master_reg">Регистрация мастера</string>
+    <string name="login_reg_text">Email:</string>
+    <string name="pass_reg_text">Password:</string>
+    <string name="enter_pass_reg_hint">Придумайте пароль, который запомните</string>
+    <string name="city_for_reg">1. Город или Online (если нет в списке, ближайший)</string>
+    <string name="category_for_reg">Категория:</string>
+    <string name="service_for_reg">Услуга:</string>
+    <string name="tel_reg_text">Телефон (только Израиль!):</string>
+    <string name="enter_tel">В формате 05X-XXXXXXX</string>
+    <string name="whatsapp_reg_text">WhatsApp (в формате 972XXXXXXXXX):</string>
+    <string name="enter_whatsapp">Можно номер другой страны</string>
+    <string name="instagram_reg_text">Instagram (продвигаем в нашей группе):</string>
+    <string name="enter_instagram">Просто id, не ссылку</string>
+    <string name="name_of_your_service_reg_text">Название вашей услуги:</string>
+    <string name="enter_name_of_your_service">Кратко, детали в описании</string>
+    <string name="price_reg_text">Стоимость ваших услуг в ₪:</string>
+    <string name="from_ils_reg_hint">От</string>
+    <string name="to_ils_reg_hint">До</string>
+    <string name="address_reg_text">Адрес:</string>
+    <string name="address_service">Адрес где оказывается услуга</string>
+    <string name="language_reg_text">Языки:</string>
+    <string name="ru_reg_text">Ru</string>
+    <string name="heb_reg_text">Hebrew</string>
+    <string name="eng_reg_text">En</string>
+    <string name="description_for_reg">Описание:</string>
+    <string name="description">Введите описание вашей услуги в это поле. Напишите список услуг, которые вы оказываете, можно с ценами, скидки, лучшее предложение, ваш опыт и преимущества. Анкеты без описания или с парой слов не вызывают доверия у клиентов.</string>
+    <string name="portret_reg_hint">Выберете файл</string>
+    <string name="portret2_reg_hint">Файл не выбран</string>
+    <string name="portret_photo_reg">Ваше фото (портрет):</string>
+    <string name="delete">Удалить выбор</string>
+    <string name="work_photo_reg">Фото ваших работ (выбирайте сразу все):</string>
+    <string name="photo_reg">Выберете файл</string>
+    <string name="photo2_reg">Файл не выбран</string>
+    <string name="accept_reg"> Я подтверждаю, что я молодец и ответственно подошел к заполнению своей анкеты и заполнил все поля!</string>
+    <string name="singin_reg">Разместить вашу рекламу</string>
+    <string name="name_reg_text">Имя (или название салона,фирмы):</string>
+    <string name="enter_name">Введите ваше Имя и желательно Фамилию</string>
+    <string name="questions">Возникли вопросы?</string>
+    <string name="qestions_profile">Вопросы по размещению анкеты?</string>
+    <string name="qestions_about_reklama">Вопросы по размещению рекламы?</string>
+    <string name="qestions_about_all">Любые другие вопросы?</string>
+    <string name="questions_whatsapp">Задайте нам их в WhatsApp</string>
+    <string name="write_to_mail">или напишите на почту</string>
+    <string name="search_button">Кнопка поиска</string>
+
+
+    <string-array name="afocus_thief_items">
+
+    </string-array>
+    <string-array name="spinner_city_items">
+        <item>Выбрать город</item>
+        <item>Акко</item>
+        <item>Арад</item>
+        <item>Ариель</item>
+        <item>Афула</item>
+        <item>Ашдод</item>
+        <item>Ашкелон</item>
+        <item>Бат-Ям</item>
+        <item>Беэр-Шева</item>
+        <item>Герцлия</item>
+        <item>Димона</item>
+        <item>Иерусалим</item>
+        <item>Йокнеам-Илит</item>
+        <item>Кармель</item>
+        <item>Кесария</item>
+        <item>Кирьят-Ата</item>
+        <item>Кирьят-Бялик</item>
+        <item>Кирьят-Гат</item>
+        <item>Кирьят-Моцкин</item>
+        <item>Кирьят-Ям</item>
+        <item>Кфар-Йона</item>
+        <item>Кфар-Сава</item>
+        <item>Лод</item>
+        <item>Мигдаль-ха-Эмек</item>
+        <item>Нагария</item>
+        <item>Нетания</item>
+        <item>Нетивот</item>
+        <item>Нешер</item>
+        <item>Ноф-ха-Галиль</item>
+        <item>Петах-Тиква</item>
+        <item>Раанана</item>
+        <item>Рамат-Ган</item>
+        <item>Рамла</item>
+        <item>Реховот</item>
+        <item>Ришон-ле-Цион</item>
+        <item>Рош-ха-Аин</item>
+        <item>Сдерот</item>
+        <item>Тель-Авив</item>
+        <item>Тират-Кармель</item>
+        <item>Хадера</item>
+        <item>Хайфа</item>
+        <item>Хариш</item>
+        <item>Ход-ха-Шарон</item>
+        <item>Холон</item>
+        <item>Эйлат</item>
+        <item>Явне</item>
+    </string-array>
+
+    <string-array name="spinner_category_items">
+        <item>Выбрать категорию</item>
+        <item>Дизайн</item>
+        <item>Еда</item>
+        <item>Кондитери и кулинария</item>
+        <item>Консультанты</item>
+        <item>Консультанты и офис</item>
+        <item>Красота и здоровье</item>
+        <item>Магазин</item>
+        <item>Обучение и коучи</item>
+        <item>Обучение, мастер-классы</item>
+        <item>Одежда и текстиль</item>
+        <item>Праздники и мероприятия</item>
+        <item>Психология</item>
+        <item>Путешествия</item>
+        <item>Ремонт</item>
+        <item>Ручная работа</item>
+        <item>Сайты и соц сети</item>
+        <item>Спорт</item>
+        <item>Спорт и здоровье</item>
+        <item>Текстиль</item>
+        <item>Услуги для дома</item>
+        <item>Фото и видео</item>
+    </string-array>
+
+    <string-array name="spinner_service_items">
+        <item>Выбрать услугу</item>
+        <item>Online</item>
+        <item>Фквагрим</item>
+        <item>Аксессуары и бижутерия</item>
+        <item>Актерское мастерство</item>
+        <item>Аниматоры</item>
+        <item>Аппаратные процедуры</item>
+        <item>Ателье</item>
+        <item>Банковские услуги</item>
+        <item>Бизнес консультации</item>
+        <item>Брови и ресницы</item>
+        <item>Бухгалтерия и аудит</item>
+        <item>Бьюти курсы</item>
+        <item>Валюта</item>
+        <item>Ведущие и организаторы</item>
+        <item>Видеосъемка</item>
+        <item>Водный спорт</item>
+        <item>Все для свадьбы</item>
+        <item>Выпечка</item>
+        <item>Двери и окна</item>
+        <item>Декор</item>
+        <item>Диетология</item>
+        <item>Дизайн</item>
+        <item>Дизайн интерьера</item>
+        <item>Дизайн онлайн</item>
+        <item>Домашняя еда</item>
+        <item>Доставка готовой еды</item>
+        <item>Доула</item>
+        <item>Единоборства</item>
+        <item>Животные</item>
+        <item>Залы для праздников</item>
+        <item>Информатика</item>
+        <item>Ипотеки</item>
+        <item>Искусство</item>
+        <item>Кейтеринг</item>
+        <item>Ключи и замки</item>
+        <item>Кондиционеры</item>
+        <item>Кондиционеры и вентиляция</item>
+        <item>Консультации по любому вопросу</item>
+        <item>Контент</item>
+        <item>Косметологическая клиника</item>
+        <item>Косметология</item>
+        <item>Коучи и предсказания</item>
+        <item>Крыша</item>
+        <item>Курсы и мастер-классы</item>
+        <item>Курьеры</item>
+        <item>Легкая атлетика</item>
+        <item>Логистика</item>
+        <item>Логопеды</item>
+        <item>Магазин бьюти товаров</item>
+        <item>Магазин для бьюти мастеров</item>
+        <item>Макияж</item>
+        <item>Маникюр</item>
+        <item>Маркетинг и реклама</item>
+        <item>Массаж</item>
+        <item>Мастер на все руки</item>
+        <item>Мебель</item>
+        <item>Мероприятия</item>
+        <item>Музыка</item>
+        <item>Музыка и вокал</item>
+        <item>Няни</item>
+        <item>Обработка фото</item>
+        <item>Одежда и текстиль</item>
+        <item>Околопсихология</item>
+        <item>Он лайн магазин</item>
+        <item>Особенные дети</item>
+        <item>Парикмахеры</item>
+        <item>Пенсионные программы</item>
+        <item>Перевод документов</item>
+        <item>Переводчик</item>
+        <item>Перевозки</item>
+        <item>Перманентный макияж</item>
+        <item>Полуфабрикаты</item>
+        <item>Постельное белье</item>
+        <item>Пошив и ремонт одежды</item>
+        <item>Пошив обуви</item>
+        <item>Процедуры здоровья</item>
+        <item>Психологи</item>
+        <item>Разработка и маркетинг</item>
+        <item>Ремонт автомобилей</item>
+        <item>Ремонт помещений</item>
+        <item>Ремонт предметов</item>
+        <item>Риэлторы и маклеры</item>
+        <item>Риэлторы и маклеры</item>
+        <item>Рукоделие</item>
+        <item>Садовые услуги</item>
+        <item>Сайты</item>
+        <item>Салон красоты</item>
+        <item>Сантехник инсталлятор</item>
+        <item>Своими руками</item>
+        <item>Сиделки и метапелет</item>
+        <item>Силовые</item>
+        <item>Сладости</item>
+        <item>Спа процедуры</item>
+        <item>Спорт и здоровье онлайн</item>
+        <item>Спорт игры</item>
+        <item>Стены</item>
+        <item>Стилист</item>
+        <item>Стоматология</item>
+        <item>Страхование и оценка</item>
+        <item>Студия</item>
+        <item>Сумки и бижутерия</item>
+        <item>Таможня</item>
+        <item>Танцы</item>
+        <item>Тату</item>
+        <item>Товары ручной работы</item>
+        <item>Трансфер</item>
+        <item>Трудоустройство</item>
+        <item>Трэвел агентства</item>
+        <item>Туризм</item>
+        <item>Уборка</item>
+        <item>Уколы красоты</item>
+        <item>Украшения и подарки</item>
+        <item>Услуги для автомобилей</item>
+        <item>Финансы</item>
+        <item>Фитнес</item>
+        <item>Фотограф</item>
+        <item>Цветы</item>
+        <item>Шахматы</item>
+        <item>Школьные предметы</item>
+        <item>Шоколад</item>
+        <item>Экскурсии</item>
+        <item>Электрика и ремонт электротоваров</item>
+        <item>Эпиляция</item>
+        <item>Юристы и нотариусы</item>
+        <item>Юристы, документы, переводы</item>
+        <item>Языки</item>
+    </string-array>
+
+
+    <string name="reklama_na_portale1">В верхнем правом углу сайта кнопка «Регистрация», нажав на неё вы переходите к заполнению информации, которая будет отображаться в вашей анкете.
+    Инстаграм мы берем только для продвижения в социальных сетях.
+    Фото мастера обязательно, по статистике клиент выбирает мастера, который ему внешне близок.
+    Фото работ - чем больше вы добавите, тем лучше, клиент увидит ваше портфолио и сможет принять решение.
+    Есть профессии где достаточно и одного фото (психолог, репетитор и тд), но если вы фотограф, мастер маникюра, парикмахер или делаете тортики на заказ или рисуете картины, без фото работ, как клиент вас сможет оценить?
+    Отнеситесь к заполнению анкеты максимально серьезно, мы помогаем вас найти, но продаете себя вы сами.</string>
+
+
+</resources>
